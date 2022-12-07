@@ -7,7 +7,7 @@
   </head>
 
   <body onload="initializeDice()">
-    <header class="row header">Welcome to Farkle! - Revised</header>
+    <header class="row header">Welcome to Farkle! (Improved)</header>
     <div class="row">
       <!-- Dice images -->
       <div class="dice">
@@ -49,16 +49,23 @@
         />
       </div>
     </div>
+
     <!-- Scoring -->
-    <div class="row score">0</div>
-    <h2>Score: <span id="score"></span></h2>
-    <h2>Turns: <span id="turns"></span></h2>
+    <div class="row score">
+      <label>Score: </label><span id="row-score">0</span>
+    </div>
+    <div class="row turns">
+      <label>Turns: </label><span id="row-turns">0</span>
+    </div>
 
     <!-- Button row -->
     <div class="row">
       <button class="button roll column" onclick="rollDice()">Roll Dice</button>
-      <button class="button bank column" onclick="displayScore()">
-        Bank Score
+      <button class="button roll-score column" onclick="displayTempScore()">
+        Calculate Roll Score
+      </button>
+      <button class="button bank column" onclick="bankScore()">
+        Bank Score for Turn
       </button>
     </div>
   </body>
