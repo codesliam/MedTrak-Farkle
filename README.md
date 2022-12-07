@@ -1,6 +1,6 @@
 # MedTrak-Farkle
 
-Original submission notes:I did not have time to implement the features I originally planned, due to the fact that relative unfamiliarity with Javascript/HTML made me need to spend a good mount of time checking syntax,functions etc, and figuring out what would be feasible for me to do in this amount of time.
+**Original submission notes:** I did not have time to implement the features I originally planned, due to the fact that relative unfamiliarity with Javascript/HTML made me need to spend a good mount of time checking syntax,functions etc, and figuring out what would be feasible for me to do in this amount of time.
 
 ## What I started but abandoned due to time awareness, less critical:
 
