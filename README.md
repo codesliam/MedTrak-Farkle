@@ -33,6 +33,7 @@
 - Buttons get double outline
 - Score displays to correct place, also displays turn count in matching style
 - Separate button to calculate score for each roll and to bank total points for that turn
+- TODO: Make page more responsive to browser width
 
 ## Next steps ideas, most critical
 
