@@ -20,7 +20,7 @@
 ### Game features functionality and .js changes
 
 - Dice only get counted towards score if they are clicked
-- Score for each dice roll counted, as well as final cumulative score over all 5 rounds
+- Score for each dice roll and turn totalcounted, as well as final cumulative score over all 5 rounds
 - TODO: Make it so score is not cumulative over turn, sums up separate roll scores separately
 
 ### GUI
